@@ -1,10 +1,11 @@
+/* design the whole document */
+
 *{
     font-family: 'Courier New', Courier, monospace;
 }
 body{
     border: 2px solid black;
     background-color: blanchedalmond;
-
 }
 nav{
     background-color: #89CFF0;
@@ -15,6 +16,10 @@ nav{
     padding-left: 35%;
     font-size: xx-large;
 }
+
+
+/* design the login page  */
+
 .content{
     display: flex;
     height: 100%;
@@ -29,10 +34,8 @@ nav{
     background-image: url(./images/backimage.jpg);
     padding-top: 150px;
     padding-left: 150px;
-    border: 1px solid red;
     font-size: xx-large;
     font-weight: bolder;
-
 }
 .right{
     float: right;
@@ -46,7 +49,7 @@ nav{
     font-size: xx-large;
     line-height: 45px;
 }
-input{
+.input{
     height: 40px;
     width: 400px;
 }
@@ -58,12 +61,14 @@ button{
     letter-spacing: 3px;
     line-height: 20px;
     font-weight: bolder;
-
 }
 a{
     text-decoration: none;
     color: black;
 }
+
+
+/* design the quiz section */
 
 .container{
     border: 2px solid #0a2351;
@@ -78,8 +83,9 @@ a{
 #button{
     background-color: #89CFF0;
     margin-left: 850px;
-    width: 100px;
+    width: 150px;
     font-size: large;
     font-weight: bold;
     margin-top: 50px;
+    height: 30px;
 }
