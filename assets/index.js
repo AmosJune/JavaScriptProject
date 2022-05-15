@@ -2,8 +2,8 @@
 function next (){
     document.getElementsByClassName("container")[id2];
     document.getElementsByClassName("container")[id3];
-    document.getElementsByClassName("container");
-    document.getElementsByClassName("container");
+    document.getElementsByClassName("container")[id4];
+    document.getElementsByClassName("container")[id5];
 };
 
 // The result button that displays the total
