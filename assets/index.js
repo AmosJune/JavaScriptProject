@@ -1,10 +1,9 @@
 // The next button after every question
-
 function next (){
     document.getElementsByClassName("container")[id2];
     document.getElementsByClassName("container")[id3];
-    document.getElementsByClassName("container")[id4];
-    document.getElementsByClassName("container")[id5];
+    document.getElementsByClassName("container");
+    document.getElementsByClassName("container");
 };
 
 // The result button that displays the total
@@ -25,6 +24,6 @@ function result(){
     if (document.getElementById("correct5").checked) {
         total++;
     }
-    document.write("Your score is :" +total);
+    alert("Your score is : " +total)
 
 };

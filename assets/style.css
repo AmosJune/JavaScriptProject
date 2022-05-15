@@ -8,7 +8,7 @@ nav{
     font-size: 20px;
 }
 .content{
-    background-color: #A3C1AD;
+    background-color: #008080;
     display: flex;
     height: 100%;
 }
@@ -43,7 +43,8 @@ button{
     border: 2px solid #0a2351;
     width: 50%;
     padding: 20px;
-    /* display: none; */
     border-radius: 8px;
     margin-top: 50px;
+    background-color: beige;
+    justify-content: center;
 }
