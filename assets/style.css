@@ -1,5 +1,5 @@
 *{
-    font-family: 'Verdana', 'Calibri';
+    font-family: 'Courier New', Courier, monospace;
     background-color: blanchedalmond;
 }
 nav{
@@ -48,4 +48,13 @@ button{
     margin-top: 50px;
     background-color: beige;
     justify-content: center;
+    margin-left: 300px;
+}
+#button{
+    background-color: #89CFF0;
+    margin-left: 850px;
+    width: 100px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 50px;
 }
