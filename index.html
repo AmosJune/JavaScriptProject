@@ -14,36 +14,45 @@
     
     <!-- Form Question -->
     <div>
-    <form>
-        <p>1. Which of the following statement shows the primary difference between JavaScript and Java?</p>
-        <p><input type="radio" name="option A" value="There is no difference between JavaScript and Java.">There is no difference between JavaScript and Java.</p>
-        <p><input type="radio" name="option B" value="Functions are considered as fields.">Functions are considered as fields.</p>
-        <p><input type="radio" name="option C" value="Variables are specific.">Variables are specific.</p>
-        <p><input type="radio" name="option D" value="Functions are values, and there is no such distinction between methods and fields.">Functions are values, and there is no such distinction between methods and fields.</p>
-
-        <P>2. Which of the following statement is true?</P>
-        <P><input type="radio" name="option A" value="If onKeyDown returns false, the key-up event is canceled.">If onKeyDown returns false, the key-up event is canceled.</P>
-        <P><input type="radio" name="option B" value="If onKeyDown returns false, the key-press event is canceled.">If onKeyDown returns false, the key-press event is canceled.</P>
-        <P><input type="radio" name="option C" value="If onKeyPress returns false, the key-down event is canceled.">If onKeyPress returns false, the key-down event is canceled.</P>
-        <P><input type="radio" name="option D" value="If onKeyPress returns false, the key-up event is canceled.">If onKeyPress returns false, the key-up event is canceled.</P>
-
-        <P>3. Which of the following is used to define the behavior of the instances present of a class inside a method?</P>
-        <P><input type="radio" name="option A" value="Method">Method</P>
-        <P><input type="radio" name="option B" value="Classes">Classes</P>
-        <P><input type="radio" name="option C" value="Interfaces">Interfaces</P>
-        <P><input type="radio" name="option D" value="Classes and Interfaces">Classes and Interfaces</P>
+    <form name="questions" id="quiz">
+        <p id="q1">1. Which of the following statement shows the primary difference between JavaScript and Java?</p>
         
-        <P>4. Which of the following statement shows the primary difference between JavaScript and Java?</P>
-        <P><input type="radio" name="option A" value="There is no difference between JavaScript and Java.">There is no difference between JavaScript and Java.</P>
-        <P><input type="radio" name="option B" value="Functions are considered as fields.">Functions are considered as fields.</P>
-        <P><input type="radio" name="option C" value="Variables are specific.">Variables are specific.</P>
-        <P><input type="radio" name="option D" value="Functions are values, and there is no such distinction between methods and fields.">Functions are values, and there is no such distinction between methods and fields.</P>
+        <input type="radio" id="A" name="OPTION A" value="There is no difference between JavaScript and Java.">
+        <label for="q1">There is no difference between JavaScript and Java.</label><br>
         
-        <P>5. Which of the following statement is true if class B can extend another class A?</P>
-        <P><input type="radio" name="option A" value="A is the superclass, and B is the subclass.">A is the superclass, and B is the subclass.</P>
-        <P><input type="radio" name="option B" value="B is the superclass, and A is the subclass.">B is the superclass, and A is the subclass.</P>
-        <P><input type="radio" name="option C" value="Both A and B are the superclass.">Both A and B are the superclass.</P>
-        <P><input type="radio" name="option D" value="Both A and B are subclass.">Both A and B are subclass.</P>
+        <input type="radio" id="B" name="OPTION B" value="Functions are considered as fields.">
+        <label for="q1">Functions are considered as fields.</label><br>
+        
+        <input type="radio" id="C" name="OPTION C" value="Variables are specific.">
+        <label for="q1">Variables are specific.</label><br>
+        
+        <input type="radio" id="D" name="OPTION D" value="Functions are values, and there is no such distinction between methods and fields.">
+        <label for="q1">Functions are values, and there is no such distinction between methods and fields.</label><br>
+        
+
+        <P id="q2">2. Which of the following statement is true?</P>
+        <P id="q2"><input type="radio" name="option A" value="If onKeyDown returns false, the key-up event is canceled.">If onKeyDown returns false, the key-up event is canceled.</P>
+        <P id="q2"><input type="radio" name="option B" value="If onKeyDown returns false, the key-press event is canceled.">If onKeyDown returns false, the key-press event is canceled.</P>
+        <P id="q2"><input type="radio" name="option C" value="If onKeyPress returns false, the key-down event is canceled.">If onKeyPress returns false, the key-down event is canceled.</P>
+        <P id="q2"><input type="radio" name="option D" value="If onKeyPress returns false, the key-up event is canceled.">If onKeyPress returns false, the key-up event is canceled.</P>
+
+        <P id="q3">3. Which of the following is used to define the behavior of the instances present of a class inside a method?</P>
+        <P id="q3"><input type="radio" name="option A" value="Method">Method</P>
+        <P id="q3"><input type="radio" name="option B" value="Classes">Classes</P>
+        <P id="q3"><input type="radio" name="option C" value="Interfaces">Interfaces</P>
+        <P id="q3"><input type="radio" name="option D" value="Classes and Interfaces">Classes and Interfaces</P>
+        
+        <P id="q4">4. Which of the following statement shows the primary difference between JavaScript and Java?</P>
+        <P id="q4"><input type="radio" name="option A" value="There is no difference between JavaScript and Java.">There is no difference between JavaScript and Java.</P>
+        <P id="q4"><input type="radio" name="option B" value="Functions are considered as fields.">Functions are considered as fields.</P>
+        <P id="q4"><input type="radio" name="option C" value="Variables are specific.">Variables are specific.</P>
+        <P id="q4"><input type="radio" name="option D" value="Functions are values, and there is no such distinction between methods and fields.">Functions are values, and there is no such distinction between methods and fields.</P>
+        
+        <P id="q5">5. Which of the following statement is true if class B can extend another class A?</P>
+        <P id="q5"><input type="radio" name="option A" value="A is the superclass, and B is the subclass.">A is the superclass, and B is the subclass.</P>
+        <P id="q5"><input type="radio" name="option B" value="B is the superclass, and A is the subclass.">B is the superclass, and A is the subclass.</P>
+        <P id="q5"><input type="radio" name="option C" value="Both A and B are the superclass.">Both A and B are the superclass.</P>
+        <P id="q5"><input type="radio" name="option D" value="Both A and B are subclass.">Both A and B are subclass.</P>
     </form>
     <button onclick="check()">Submit</button>
 </div>
