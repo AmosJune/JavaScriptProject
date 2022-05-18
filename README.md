@@ -2,13 +2,13 @@
  ## By Amos Sifuma
 ## Screenshot 
 ## Table of Content   
- - [Description](#description)
- - [Features](#features)
- - [Requirements](#requirements)
- - [Installation Process](#installation-Process)
+ - [Description](#Description)
+ - [Features](#Features)
+ - [Requirements](#Requirements)
+ - [Installation Process](#Installation-Process)
  - [Live Link](#Live-Link)
- - [Technology  Used](#technology-Used)
- - [Licence](#licence)
+ - [Technology  Used](#Technology-Used)
+ - [Licence](#Licence)
  - [Authors Info](#Authors-Info)
 
  ## Description
@@ -28,6 +28,7 @@ As a user of the application, you will be able to :
 * Clone to this repo: git clone https://github.com/AmosJune/JavaScriptProject.git
 * Unzip the downloaded files in a folder of your choice.
 * Open the index file from the zipped file with any browser, prefferably Google Chrome.
+
  *******************************
 
 ## Live Link
